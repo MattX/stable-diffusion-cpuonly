@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 echo This Script is now installing a Stable Diffusion cpu only variant. 
 
 mkdir -p models/ldm/stable-diffusion-v1/
